@@ -23,12 +23,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:25px 30px;
+    padding:35px 35px;
     background: $clr-2;
     // box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.197);
     position: sticky;
     top: 0;
     z-index: 100;
+    .logo {
+        display: flex;
+        align-items: center;
+        img {
+            width: 60px;
+        }
+    }
     .nav-links{
         display: flex;
         align-items: center;
@@ -40,6 +47,7 @@ body{
             padding:10px 20px;
             border-radius: 10px;
             transition: 0.5s;
+            font-weight: 500;
             &:hover{
                 background: black;
             }
@@ -47,7 +55,7 @@ body{
         a{
             font-size: 1.2rem;
             color: black;
-            font-weight: 600;
+            font-weight: 400;
             transition: 0.5s;
             padding:10px 15px;
             border-radius: 10px;
@@ -59,9 +67,9 @@ body{
         }
     }
     h1{
-        color: white;
-        -webkit-text-stroke:2px black;
-        font-family: inter;
+        color: black;
+        // -webkit-text-stroke:2px black;
+        font-family: sora;
     }
 }
 

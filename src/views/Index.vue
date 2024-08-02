@@ -37,6 +37,11 @@ import Footer from "@/components/footer.vue";
 import Activity from "@/components/ActivityCard.vue"
 import ServiceCard from "@/components/ServiceCard.vue";
 export default {
+    components:{
+        Navbar,
+        Footer,
+    }
+}
   components: {
     Navbar,
     Footer,
