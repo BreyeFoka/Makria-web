@@ -18,12 +18,14 @@ body{
     background: $clr-2;
 }
 
+//starting style of navbar
+
 .nav{
     // border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:35px 35px;
+    padding:20px 35px;
     background: $clr-2;
     // box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.197);
     position: sticky;
@@ -70,9 +72,15 @@ body{
         color: black;
         // -webkit-text-stroke:2px black;
         font-family: sora;
+        font-size: 1.2rem;
+    }
+    img{
+        width: 10px;
+        height: 45px;
     }
 }
 
+//this means a unique style of a certian link which have this class
 .uniq{
     background: $clr-1;
     color: white;
@@ -84,6 +92,9 @@ body{
     }
 }
 
+//end of style of navbar 
+
+//starting style of content which we will be using in styling our page many times like bootstrap
 .content{
     display: flex;
     align-items: center;
@@ -152,6 +163,10 @@ body{
     }
 }
 
+//end of style of content class
+
+//start of style of activity class
+
 .activity{
     display: flex;
     align-items: center;
@@ -179,6 +194,8 @@ body{
     }
 }
 
+//end of style of activity class
+
 .h1{
     font-size: 5rem;
     font-weight: 600;
@@ -186,6 +203,9 @@ body{
         color: $clr-1;
     }
 }
+
+//start of contact class style
+
 .contact-us{
     display: flex;
     align-items: center;
@@ -238,6 +258,10 @@ body{
         }
     }
 }
+
+//end
+
+//start of footer class style
 
 .footer{
     // border: 1px solid red;
@@ -298,6 +322,8 @@ body{
 }
 
 
+//end
+
 .status{
     padding:10px  20px;
     color: green;
@@ -305,7 +331,7 @@ body{
     font-weight: 800;
 }
 
-
+//style of notfound page 
 .not-found{
     height: 100vh;
     width: 100%;
@@ -322,14 +348,19 @@ body{
         border-radius: 20px;
     }
 }
+//end
 
+//this style of cont will also be used like bootstrap
 
-.services{
+.cont{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    .services-words{
+    background: white;
+    padding: 30px;
+    gap: 20px;
+    .cont-words{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -345,4 +376,68 @@ body{
             font-size: 1.5rem;
         }
     }
+    .cont-card-cont{
+        padding: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        .cont-card{
+            // border: 1px solid red;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 500px;
+            padding: 40px;
+            border-radius: 40px;
+            background: $clr-2;
+            box-shadow: 1px 1px 5px #374bfe76;
+            a{
+                width: 150px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding:15px 10px;
+            }
+            h1{
+                font-weight: 600;
+                font-size:1.6rem;
+            }
+            p{
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+//end
+
+
+//also here be used like bootstrap
+.cont-2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 70px;
+   padding: 40px;
+   .cont-2-words{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h1{
+        font-size: 3.5rem;
+    }
+    h4{
+        color: $clr-1;
+    }
+    a{
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   }
+   img{
+    width: 600px;
+    border-radius: 40px;
+   }
 }
