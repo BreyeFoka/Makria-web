@@ -2,18 +2,18 @@
   <div class="footer-cont">
     <div class="footer">
       <div class="footer-words">
-        <h1>Elevate your Digital Flagship</h1>
-        <p>Get in touch to discuss partnering on your website goals</p>
+        <h1 class="text-white  text-md">Elevate Your Digital Flagship</h1>
+        <p>Get in touch with us</p>
       </div>
-    <router-link class="uniq-a" >get started</router-link>
+    <router-link class="uniq-a" >Subscribe to our Newsletter</router-link>
     <div class="footer-links">
-        <router-link to="/faq" >faqs</router-link>
-        <router-link to="/legal" >legal</router-link>
-        <router-link to="/pricing">pricing</router-link>
-        <router-link to="/contact">contact us</router-link>
+        <router-link to="/faq" >FAQs</router-link>
+        <router-link to="/legal" >Legal</router-link>
+        <router-link to="/pricing">Pricing</router-link>
+        <router-link to="/contact">Contact Us</router-link>
     </div>
     <hr>
-    <p>© 2024 IDEAS INTO REALITY. ALL RIGHTS RESERVED. DESIGNED BY MAKRIA TEAM</p>
+    <p>©2024 Ideas Into reality. All Rights RESERVED. DESIGNED BY MAKRIA TEAM</p>
   </div>
   </div>
 </template>
