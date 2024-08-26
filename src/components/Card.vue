@@ -3,7 +3,7 @@
     <img :src="img" alt="">
     <h1>{{ title  }}</h1>
     <p>{{ par }}</p>
-    <router-link to="/contact" class="uniq" >get started</router-link>
+    <router-link to="/contact" class="uniq" >Get Started</router-link>
   </div>
 </template>
 
